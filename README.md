@@ -15,9 +15,9 @@ $ npm install --save get-params
 ```js
 var getParams = require('get-params');
 
-var myFunction = function (one, two three) {
+var myFunction = function (one, two, three) {
 	return 'blah';
-}
+};
 
 var params = getParams(myFunction);
 console.log(params); // ['one', 'two', 'three']
